@@ -1,3 +1,4 @@
+<!-- templates/chat.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,7 @@
     <button type="submit">Send</button>
   </form>
 
+  <hr>
   <div>
     {% for speaker, msg in chat_history %}
       <p><strong>{{ speaker }}:</strong> {{ msg }}</p>
