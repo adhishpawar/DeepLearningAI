@@ -34,11 +34,11 @@ intent_chain = LLMChain(llm=llm, prompt=intent_template)
 ##Promot 2 --> Summarize user input
 summary_template = PromptTemplate(
     input_variables=["input_text"],
-    template="""
+    template= """
                     Summarize the following message in 1-2 lines for quick understanding:
                     {input_text}
                     Summary:
-                """
+              """
 )
 summary_chain = LLMChain(llm=llm, prompt=summary_template)
 
