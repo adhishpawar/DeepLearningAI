@@ -1,0 +1,31 @@
+{"text": "Fixed login bug in frontend", "label": "Bug Fix", "effort": "2 hrs"}
+{"text": "Implemented payment API integration", "label": "Development", "effort": "3 hrs"}
+{"text": "Wrote project documentation for API endpoints", "label": "Documentation", "effort": "2 hrs"}
+{"text": "Tested the checkout flow on staging environment", "label": "Testing", "effort": "2.5 hrs"}
+{"text": "Deployed new release to production server", "label": "Deployment", "effort": "2 hrs"}
+{"text": "Fixed CSS issues on homepage", "label": "Bug Fix", "effort": "1.5 hrs"}
+{"text": "Reviewed pull requests for backend modules", "label": "Development", "effort": "2 hrs"}
+{"text": "Updated project wiki with new guidelines", "label": "Documentation", "effort": "1 hr"}
+{"text": "Performed regression testing for login module", "label": "Testing", "effort": "3 hrs"}
+{"text": "Configured server monitoring tools", "label": "Deployment", "effort": "1.5 hrs"}
+{"text": "Research new API framework for microservices", "label": "Research", "effort": "4 hrs"}
+{"text": "Designed UI mockups for dashboard page", "label": "Design", "effort": "3 hrs"}
+{"text": "Attended sprint planning meeting", "label": "Meetings", "effort": "1 hr"}
+{"text": "Assisted teammate in debugging API errors", "label": "Support", "effort": "1.5 hrs"}
+{"text": "Updated unit tests for payment module", "label": "Testing", "effort": "2 hrs"}
+{"text": "Optimized database queries for reports", "label": "Development", "effort": "3 hrs"}
+{"text": "Documented error handling procedures", "label": "Documentation", "effort": "1.5 hrs"}
+{"text": "Deployed bug fix hotpatch to production", "label": "Deployment", "effort": "1 hr"}
+{"text": "Reviewed new UI designs for mobile app", "label": "Design", "effort": "2 hrs"}
+{"text": "Attended client call for requirement discussion", "label": "Meetings", "effort": "1 hr"}
+{"text": "Debugged payment gateway integration issue", "label": "Bug Fix", "effort": "2.5 hrs"}
+{"text": "Created integration tests for API endpoints", "label": "Testing", "effort": "2 hrs"}
+{"text": "Updated README with setup instructions", "label": "Documentation", "effort": "1 hr"}
+{"text": "Researched performance optimization techniques", "label": "Research", "effort": "3 hrs"}
+{"text": "Designed wireframes for login and signup pages", "label": "Design", "effort": "2.5 hrs"}
+{"text": "Assisted in resolving customer support tickets", "label": "Support", "effort": "2 hrs"}
+{"text": "Participated in daily stand-up meeting", "label": "Meetings", "effort": "0.5 hr"}
+{"text": "Refactored legacy code for API module", "label": "Development", "effort": "3.5 hrs"}
+{"text": "Fixed session timeout bug", "label": "Bug Fix", "effort": "1.5 hrs"}
+{"text": "Tested new authentication flow", "label": "Testing", "effort": "2 hrs"}
+{"text": "Deployed analytics module to production", "label": "Deployment", "effort": "2 hrs"}
