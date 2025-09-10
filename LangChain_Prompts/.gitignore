@@ -1,0 +1,86 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+db.sqlite3
+
+# Media and Static files
+/media
+/staticfiles
+/static
+
+# Django secret key
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+dlenv/
+.dlenv/
+.dlenv
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Git
+*.orig
+*.swp
+*.swo
+*.bak
+
+# Node (if using for frontend)
+node_modules/
+
+# LangChain cache/logs
+.cache/
+langchain.db
+langchain_logs/
+
+# Ignore system-level Python packages accidentally pulled into repo
+*.egg-info/
+dist/
+build/
+
+# Ignore CRLF warning-inducing files
+*.crlf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+lc
