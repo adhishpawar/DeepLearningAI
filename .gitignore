@@ -29,6 +29,8 @@ env/
 dlenv/
 .dlenv/
 .dlenv
+lc
+lc/
 
 # VS Code settings
 .vscode/
