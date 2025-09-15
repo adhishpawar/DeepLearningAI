@@ -46,10 +46,57 @@ LangChain supports different types of pipelines:
 
 ---
 
-## 5. Example Code
+## 5. Types of Chains
 
-check simple_chain.py
+### 5.1 Simple Chain
+
+**Flow**: `Prompt → LLM → Parser`
+
+Used for direct tasks such as generating a single output from an input. Example: generating facts about a topic.
+
+Flowchart:
+
+```
+Input → Prompt → LLM → Parser → Output
+```
+
 ---
+
+### 5.2 Sequential Chain
+
+**Flow**: `Topic → LLM (Detailed Report) → LLM (Summary in 5 Points)`
+
+Sequential chains execute steps in order, where the output of one step becomes the input to the next.
+
+Flowchart:
+
+```
++-------+       +--------------------+       +---------------------+
+| Topic |  -->  | Detailed Report LLM|  -->  | Summary (5 Points)  |
++-------+       +--------------------+       +---------------------+
+```
+
+Use case: Research → Report → Condensed Summary.
+
+---
+
+### 5.3 Parallel Chain
+
+**Flow**: `Document → LLM → (Notes + Quiz in Parallel) → Merge into New LLM → Output`
+
+Parallel chains allow multiple branches to run at the same time and then merge their outputs.
+
+Flowchart:
+
+```
+                +-------- Notes Prompt --------+
+               /                                \
+Document --> LLM                                Merge --> Final Output
+               \                                /
+                +-------- Quiz Prompt  --------+
+```
+
+Use case: From a single document, generate **study notes** and **quiz questions** in parallel, then combine them into a unified study guide.
 
 ---
 
@@ -58,7 +105,9 @@ check simple_chain.py
 * A **Chain** is simply a pipeline of `Runnables`.
 * The `|` operator connects components together.
 * The chain handles data flow automatically.
-* `get_graph()` helps visualize the pipeline.
+* You can design **Sequential**, **Parallel**, and even **Conditional** pipelines.
+* Flowcharts help visualize the execution clearly.
+* `get_graph()` can generate ASCII representations of pipelines.
 
 ---
 
