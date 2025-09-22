@@ -31,6 +31,8 @@ dlenv/
 .dlenv
 lc
 lc/
+tr
+tr/
 
 # VS Code settings
 .vscode/
